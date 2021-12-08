@@ -86,14 +86,14 @@ To save a world,
 
 1. Go to **File > Save World As (Ctrl + Shift + S)**
   
-2. Go to the appropriate folder (```epi1 > worlds```), give an appropriate name (```wall```) and save
+2. Go to the appropriate folder (```epi1 > worlds```), type an appropriate name (```wall``` or ```wall.world``` ) and save
  
  
 To load the world,
 
 1. ```cd``` to the directory containing the world file (```worlds``` in this case) in the terminal
   
-2. Execute  ```gazebo wall```
+2. Execute  ```gazebo wall``` (if you had typed ```wall``` while saving) or ```gazebo wall.world``` (if you had typed ```wall.world``` while saving) 
  
  
 **Optional Reading**-[Building a world](http://gazebosim.org/tutorials?cat=build_world)
